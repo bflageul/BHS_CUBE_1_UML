@@ -1,0 +1,35 @@
+SOMMAIRE : 
+
+    1/Organisation du projet (document transmis à Valérie en début de projet)
+    2/Analyse fonctionnelle
+    3/Analyse structurelle
+
+    1/Organisation du projet
+
+        a/ Le modèle d’organisation de projet
+Nous avons choisi de fonctionner avec une méthode en V. Nous nous sommes entendu sur le fait que cette maniere de travailler semblait nous correspondre le mieux.
+Disposant d’un cahier des charges définitif et précis, les exigences du clients sont fixées, ce qui est en accord avec le choix d’une méthode en V.
+        b/ Organisation d’équipe
+Nous avons décidé de définir un responsable d’équipe différent chaque mois.
+1er mois  : Hugo
+2eme mois : Steven
+3eme mois : Benjamin
+Après avoir défini les tâches de travail, nous avons choisi d’utiliser Trello pour communiquer sur l’avancée des différentes actions à mener.
+Réunion toute les semaines le mercredi 20h00.
+Deux tâches maximum “en cours” par membre de l’équipe afin d’eviter d’avoir que des tâches en cours et aucune de terminer.
+        c/ Architecture
+L’architecture choisie est la MVC (Modele, Vue, Controller).
+La raison du choix est simple , nous allons devoir gérer une base de données et nous avons le langage de programation C# imposé.
+        d/ Outils
+Choix de l’IDE : Visual Studio Code
+Versioning : Création d’un repository sur GitHub
+Création d’un Trello
+SQL, C#, html, css bootstrap (framework)
+diagramme mcd
+
+
+    2/Analyse fonctionnelle
+
+        a/ Objectif
+Dans le cadre de son activité commerciale, la société Negosud a fait appel aux services de BHS Services pour développer une application.
+Les besoins fonctionnels du produit sont :
