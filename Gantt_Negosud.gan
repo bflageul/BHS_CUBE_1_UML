@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-09-05" view-index="0" gantt-divider-location="489" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Name" width="304" order="0"/>
+        <field id="tpd4" name="Begin date" width="98" order="1"/>
+        <field id="tpd5" name="End date" width="83" order="2"/>
+        <option id="color.recent"><![CDATA[#ffffff #000000 #ffff33 #999999 #66ccff #f4f4f4 #cccccc #ff9900 #ffff99 #00ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="12" name="PLAN" meeting="false" start="2021-09-08" duration="31" complete="0" expand="true">
+            <task id="21" name="DefineProjectMethodMgmt" color="#ffcc99" meeting="false" start="2021-09-08" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="DefineTools(Trello,GitHub,Discord)" color="#ffcc99" meeting="false" start="2021-09-08" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="DefineIDE" color="#ffcc99" meeting="false" start="2021-09-08" duration="31" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="DefineFramework" color="#ffcc99" meeting="false" start="2021-09-08" duration="31" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="DO" meeting="false" start="2021-09-23" duration="34" complete="0" expand="true">
+            <task id="11" name="GitHub" color="#ffffff" meeting="true" start="2021-09-23" duration="0" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+                <task id="78" name="ApplicationRepo" color="#8cb6ce" meeting="true" start="2021-10-25" duration="0" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+                <task id="79" name="UML&amp;ExplicationsRepo" color="#8cb6ce" meeting="true" start="2021-09-23" duration="0" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="24" name="UML" meeting="false" start="2021-09-27" duration="17" complete="0" expand="true">
+                <task id="25" name="UseCaseDiagram" color="#66ccff" meeting="false" start="2021-09-27" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="26" name="ClassDiagram" color="#66ccff" meeting="false" start="2021-09-27" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="27" name="EntityRelationshipDiagram" color="#66ccff" meeting="false" start="2021-10-19" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="4" name="Database" meeting="false" start="2021-10-04" duration="26" complete="0" expand="true">
+                <task id="8" name="CollectData" color="#ff9900" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="SaveDataInCSV" color="#ff9900" meeting="false" start="2021-10-05" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="6" name="CreateTable" color="#ff9900" meeting="false" start="2021-11-03" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="7" name="BulkInsert" color="#ff9900" meeting="false" start="2021-11-08" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="5" name="ApplicationMVC" meeting="false" start="2021-10-25" duration="12" complete="0" expand="true">
+                <task id="28" name="CreateApplication" color="#ffff33" meeting="false" start="2021-10-25" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="53" name="DbConnection" color="#ffff33" meeting="false" start="2021-11-08" duration="1" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+                <task id="54" name="SupplierFct" color="#ffff33" meeting="false" start="2021-11-08" duration="1" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+                <task id="55" name="ProductFct" color="#ffff33" meeting="false" start="2021-11-08" duration="1" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+                <task id="56" name="AuthenticationFct" color="#ffff33" meeting="false" start="2021-11-09" duration="1" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="14" name="CHECK" color="#000000" meeting="false" start="2021-09-06" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+            <task id="63" name="Deploy" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="16" name="ACT" color="#000000" meeting="false" start="2021-09-06" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+            <task id="58" name="TechnicalDocuments" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true">
+                <task id="59" name="Diagram" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+                <task id="60" name="Schema" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+                <task id="61" name="Database" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+                <task id="62" name="Architecture" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="67" name="InstallationProcedure" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+        <task id="68" name="OralPresentation" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true">
+            <task id="70" name="PowerPoint" meeting="false" start="2021-09-06" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
